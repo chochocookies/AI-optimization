@@ -328,13 +328,14 @@
             Jangan lewatkan kesempatan untuk mengetahui teknologi AI yang sedang mengubah cara bisnis beroperasi. Dengan memanfaatkan AI, Anda dapat meningkatkan efisiensi, mengoptimalkan pengalaman pengguna, dan menciptakan solusi yang cerdas.
             </p>
 
-            <button
-              onclick="refreshPage()"
-              id="btn-cv"
-              class="btn-shadow mt-5 px-5 py-2 text-base font-semibold text-primary transition duration-300 ease-in-out"
+            <a
+            id="btn-cv"
+            class="btn-shadow mt-10 px-5 py-2 text-base font-semibold text-primary transition duration-300 ease-in-out"
+            target="_blank"
+            href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGFhcWM2ZnFjNjU4NWxsb3E4NGw0MHBlZjMgZWtvYXJ5YW50bzExQG0&tmsrc=ekoaryanto11%40gmail.com"
             >
               REMINDER ME
-            </button>
+            </a>
 
           </div>
           <div
@@ -1425,7 +1426,7 @@
           </div>
         </div>
 
-        <form action="">
+        <form action="https://script.google.com/macros/s/AKfycbzR3jAt-epg8jyh8QWqShaJ4EzYX0KSV1ZHbJb-zcbZcPp_f-SMSN8tOtuR6lRsjzC28w/exec" method="POST" id="my-form">
           <div class="mx-auto w-full md:w-1/2">
             <div
               class="mb-8 w-full px-4"
@@ -1440,6 +1441,7 @@
                 type="text"
                 required
                 id="name"
+                name="nama"
                 class="mt-2 w-full rounded-md bg-slate-200 p-2 text-mydark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
               />
             </div>
@@ -1455,6 +1457,7 @@
               <input
                 type="email"
                 id="email"
+                name="email"
                 class="peer mt-2 w-full rounded-md bg-slate-200 p-2 text-mydark invalid:text-red-500 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary invalid:focus:ring-red-500"
               />
               <p
@@ -1475,6 +1478,7 @@
               <textarea
                 type="text"
                 id="pesan"
+                name="pesan"
                 class="mt-2 h-28 w-full rounded-md bg-slate-200 p-2 text-mydark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
               ></textarea>
             </div>
